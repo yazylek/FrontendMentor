@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 600;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  border-radius: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.info h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+  color: hsl(75, 94%, 57%);
+  font-weight: 400;
+}
+
+.info p {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  list-style: none;
+  padding: 0.8rem 6.5rem;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 7px;
+  transition: background-color 0.4s;
+  cursor: pointer;
+}
+
+.link:last-child {
+  margin-bottom: 2.5rem;
+}
+
+.link:first-child {
+  margin-top: 2rem;
+}
+
+.link:hover {
+  background-color: hsl(0, 0%, 8%);
+}
