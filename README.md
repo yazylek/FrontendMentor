@@ -1,7 +1,5 @@
 # Frontend Mentor Challenges
 
-
-### Newbie
 | Name | Live |
 |--|--|--|
 | [Social Links Profile](https://github.com/yazylek/FrontendMentor/tree/main/social-links-profile-main) | [HERE](https://frontend-mentor-sociallinkprofile.vercel.app/) |
